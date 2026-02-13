@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Valentine's Day Appa ❤️</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            background: white;
+            width: 420px;
+            padding: 30px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid rgb(228, 57, 91);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: crimson;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+            line-height: 1.5;
+        }
+
+        .heart {
+            font-size: 40px;
+            animation: beat 1s infinite;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            background: crimson;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: darkred;
+        }
+
+        @keyframes beat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <!-- Replace appa.jpg with your photo file name -->
+    <img src="PhotoCollageMaker_20230610_125758271.jpg" alt="My Appa">
+
+    <div class="heart">❤️</div>
+
+    <h1>Happy Valentine's Day Appa Amma!</h1>
+
+    <p>
+       Appa and Amma, you are my greatest blessings and my strength.
+Thank you for your endless love and care — I love you both so much. 💖
+    </p>
+
+    <button onclick="showLove()">Click Me</button>
+
+</div>
+
+<script>
+    function showLove() {
+        alert(" I love you both so much❤️ Forever and Always!");
+    }
+</script>
+
+</body>
+</html>
